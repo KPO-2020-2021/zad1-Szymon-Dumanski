@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-extern const double PI;
-extern const double E;
+extern const double PI; //w kompilacji do cpp program nie rozpoznaje odiesienia do PI
+extern const double E; //w kompilacji do cpp program nie rozpoznaje odiesienia do E
 
 
 int main()
