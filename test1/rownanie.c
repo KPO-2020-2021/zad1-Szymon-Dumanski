@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+// program dziala po skompilowaniu w g++ jednak do poprawej kompilacji w gcc wymaga dodania flagi -lm aby poprawnie zostal skompilowany 
 
 struct TrojmianKw {
   double  a;
